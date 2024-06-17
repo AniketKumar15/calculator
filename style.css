@@ -1,0 +1,101 @@
+@font-face {
+    font-family: calc;
+    src: url("/Font/digital-7.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #3B4664;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+#display{
+    margin: 15px 0px 15px 0px;
+    padding: 10px;
+    background-color: #181F32;
+    width: 500px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    font-family: "calc";
+    font-size: 40px;
+    color: white;
+}
+.button-holder{
+    background-color: #252D46;
+    border-radius: 8px;
+    width: 480px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    background-color: #EAE3DB;
+    width: 92px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow : 0px 4px #B2A397;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2e3036;
+}
+#button-del{
+    background-color: #647299;
+    width: 92px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow : 0px 4px #424D75;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+#button-reset{
+    background-color: #647299;
+    width: 148px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow : 0px 4px #424D75;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+#button-Equal{
+    background-color: #D13F30;
+    width: 148px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow : 0px 4px rgb(157,38,24);
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+#button:active{
+    background-color: #d6cec5;
+}
+#button-del:active{
+    background-color: #576386;
+}
+#button-reset:active{
+    background-color: #576386;
+}
+#button-Equal:active{
+    background-color: #b9392a;
+}
